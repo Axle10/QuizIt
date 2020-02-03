@@ -1,5 +1,6 @@
 <?php
 	session_start();
+	session_unset();
 	session_destroy();
-	include 'QuizIt.html';
 ?>
+<script>window.location.href = 'index.php'</script>

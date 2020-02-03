@@ -1,0 +1,244 @@
+body
+{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	background-color: white;
+	overflow-x: hidden;
+}
+
+.btn,.form-btn
+{
+	position: relative;
+	align-self:  center;
+	border-radius: 0 !important;
+	width: 100%;
+}
+h1,h3
+{
+	text-decoration: underline;
+	/* border-bottom: 2px solid #000; */
+	text-align: center;
+	margin: 2%;
+	padding: 2%;
+	text-transform: uppercase;
+}
+/* Header and Navbar css */
+header
+{
+	width: 100%;
+	color: #333;
+	background-color: #333;
+}
+.nav-item-float-center
+{
+	padding-top: 7px;
+}
+.nav-item-float-right
+{
+	text-align: end;
+}
+.navbar-menu > ul > .nav-item-float-right
+{
+	float: right;
+}
+
+/* Change the link color to #111 (black) on hover */
+/* li a:hover {
+	background-color: #111;
+}
+li a:active{
+	background-color: green;
+} */
+
+/* Carousel */
+#carousel
+{
+	height: auto;
+	width: 100%;
+}
+.carousel-item-img
+{
+	height: 100vh;
+}
+@media only screen and (max-device-width: 500px) 
+{
+	.carousel-item-img
+	{
+		display: block;
+		height: 40vh;
+		width: 100%;
+	}
+}
+
+
+/* Topics Section */
+#topics > .container
+{
+	padding: 1%;
+	height: auto;
+}
+
+.topics-card
+{
+	width: 80%;
+	position: relative;
+	height: 450px;
+	border-radius: 30px;
+	margin: 2%;
+	justify-content: center;
+}
+.topics-card > img
+{
+	height: 250px !important;
+	display: block;
+	/* position: relative; */
+}
+#topics > .card > .card-action
+{
+	position: relative;
+	bottom: 10px;
+	text-align: center;
+	align-items: center;
+	margin: 3%;
+}
+
+/* Signup Page */
+#signup-content
+{
+	width: 100vw;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	background-repeat: none;
+	display: flex;
+	flex-direction: row;
+}
+#signup-content > div 
+{
+	height: 100vh;
+	padding: 0;
+	margin: 0;
+}
+#signup-content > .container
+{
+	margin-right: 10px;
+}
+#signup-content > div > img
+{ 
+	opacity: 0.8;
+	background-attachment: fixed;
+	width: 50vw;
+	height:100vh;
+}
+.tab-group
+{
+	list-style-type: none;
+	box-sizing: border-box;
+}
+.tab-group > li 
+{
+	display:block;
+	text-decoration:none;
+	background: #a0b3b0;
+	color:white;
+	font-size: 25px;
+	float: left;
+	width:50%;
+	height: 40px;
+	text-align: center;
+	cursor: pointer;
+	transition:.5s ease;
+}
+.tab-group > li.active 
+{
+    background:#1ab188;
+    color:white;
+}
+.tab-group > li:hover
+{
+	background: #179f7a;
+	color: white;
+}
+
+
+#signup-content > .container > .card
+{
+	width: 100%;
+	justify-self: center;
+	padding: 30px;
+	background-color: transparent;
+}
+.signup-card, .login-card
+{
+	border: none;
+	display: none;
+}
+.login-card
+{
+	margin-top: 10%;
+}
+.active
+{
+	display: block;
+}
+@media only screen and (max-device-width: 850px) 
+{
+	#signup-content > div >  img
+	{
+		display: none;
+	}
+	/* #signup-content > .container 
+	{
+		position: relative;
+	} */
+}
+@media only screen and (min-device-width: 1250px) 
+{
+	#signup-content > div >  img
+	{
+		height: 100%;
+	}
+}
+/* Footer */
+footer
+{
+	position: relative;
+	background-color: #000;
+	color: yellow;
+	font-size: 14px;
+	height: 50%;
+	padding-top: 30px;
+	text-align: center;
+	margin: 0;
+	top: 0;
+}
+.social-icons
+{
+	align-items: center;
+	padding: 1%;
+	margin: 1%;
+}
+.social-icons > a
+{
+	padding: 5%;
+	font-size: 30px;
+	color: yellow;
+	text-decoration: none;
+	cursor: pointer;
+}
+.social-icons > a:hover
+{
+	color: white;
+}
+
+/* Error Message */
+.error-message
+{
+	color: red;
+}
+.success-message
+{
+	color: green;
+	list-style-type: none;
+}

@@ -1,0 +1,11 @@
+<?php
+	session_start();
+	if(!isset($_SESSION["name"]))
+	{
+		$flag=0;
+	}
+	else
+	{ 
+		$flag=1;
+	}
+?>
