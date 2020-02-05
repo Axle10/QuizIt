@@ -55,7 +55,7 @@
 						<p class="card-text">The Boy Who Lived Big Screen Adventures</p>
 					</div>
 					<div class="card-action text-center">
-						<a href="#" class="btn btn-primary">Click To Play</a>
+						<a href="HarryPotterInstruction.php" class="btn btn-primary">Click To Play</a>
 					</div>
 				</div>
 			</div>
@@ -67,7 +67,7 @@
 						<p class="card-text">This topic is Marvel-ous.</p>
 					</div>
 					<div class="card-action text-center">
-						<a href="#" class="btn btn-primary">Click To Play</a>
+						<a href="MarvelInstruction.php" class="btn btn-primary">Click To Play</a>
 					</div>
 
 				</div>
@@ -80,7 +80,7 @@
 						<p class="card-text">Find Out Who is under that Mask</p>
 					</div>
 					<div class="card-action">
-						<a href="#" class="btn btn-primary">Click To Play</a>
+						<a href="DCInstruction.php" class="btn btn-primary">Click To Play</a>
 					</div>
 				</div>
 			</div>
